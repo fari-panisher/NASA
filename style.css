@@ -1,0 +1,72 @@
+body{
+    background-color: #000;
+    margin: 0;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+a{
+text-decoration: none;
+color: #fff;
+}
+ul {
+    list-style: none;
+}
+#header{
+    position: relative;
+    background-image: url(img/back-header.jpg);
+    padding-bottom: 20px;
+}
+#header img:first-of-type{
+display: inline-block;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+#first-menu{
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    position: absolute;
+    padding: 0;
+    top: 5px;
+    left: 14%;
+} 
+
+/* hover bede */
+#first-menu-option>li{
+    display: inline-block;
+    position: relative;
+border-right: 1px solid #fff;
+    padding: 15px 6px;
+}
+#first-menu-option>li:hover{
+    background-color: #072f54;
+}
+#first-menu-option>li:hover ul{
+    visibility: visible;
+}
+
+.sub-menu{
+
+}
+
+/* fasele bede */
+.sub-menu{
+   background-color: #072f54;
+    position: absolute;
+    visibility: hidden;
+    padding-right: 20px;
+    top: 53px;
+    padding: 0 20px 0 0;
+}
+#first-menu-option li>ul li{
+    padding: 0 40px;
+}
+#first-menu-option li>ul li:hover{
+    background-color: #032442;
+}
+#first-menu >ul li:last-of-type{
+    border: none;
+}
+#first-menu >ul li a{
+    font-size: 19px;
+}
